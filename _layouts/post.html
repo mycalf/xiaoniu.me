@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+
+    {% if page.external-url %}
+    <h1>
+        <a href="{{ page.external-url }}">{{ page.title }}</a>
+        <a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
+    </h1>
+    {% else %}
+    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    {% endif %}
+
+    <div class="post-content">{{ content }}</div>
+
+    <p class="meta"><i class="icon-time"></i> 发表于 <span class="postdate">{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</span></p>
+
+</article>
+
+
+<div class="postnavigation">
+    {% if page.previous.url %}
+    <a class="prev left" href="{{page.previous.url}}"><i class="icon-arrow-back"></i> {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="next right" href="{{page.next.url}}">{{page.next.title}} <i class="icon-arrow-forward"></i></a>
+    {% endif %}
+</div>

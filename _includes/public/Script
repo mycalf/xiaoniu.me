@@ -1,0 +1,9 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
+<script src="/assets/js/jquery-3.3.1.min.js"></script>
+<script>
+  UIkit.util.on('#navv', 'active', function () {
+    var index = UIkit.util.index(UIkit.util.$('li.uk-active', this))
+    $('#navv').scrollTop(index * 30);
+  })
+</script>

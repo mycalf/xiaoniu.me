@@ -1,0 +1,22 @@
+blog: 小牛随笔
+author: 小牛
+url: http://xiaoniu.me
+description: 不畏浮云遮望眼，自缘身在最高层。
+themecolor: light
+
+# Where things are
+layouts_dir         : _layouts
+includes_dir        : _includes
+
+# Handling 
+include             : [".htaccess"]
+exclude             : ['README.md', "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files          : [".git", ".svn"]
+encoding            : "utf-8"
+markdown_ext        : "markdown, md"
+strict_front_matter : false
+plugins             : ["jekyll-paginate"]
+
+permalink           : /:year/:month/:day/:title/
+paginate            : 6
+paginate_path       : "/:num"

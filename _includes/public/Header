@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css" />
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/{{site.themecolor}}.css" rel="stylesheet" />
+</head>
+<body>
+{% include public/Menu %}

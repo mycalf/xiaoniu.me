@@ -1,0 +1,4 @@
+{% include public/Copyright %}
+{% include public/Script %}
+</body>
+</html>

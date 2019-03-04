@@ -146,8 +146,6 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-	background-color: #839496;
-	color: #000000;
 }
 
 
@@ -292,6 +290,11 @@ h3 {
 
 #header h1 a {
 	border: none;
+	color: #cb4b16;
+}
+
+#header h1 a:hover {
+	background-color:#fdf6e3;
 }
 
 #footer {

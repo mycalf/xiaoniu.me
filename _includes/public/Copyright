@@ -1,3 +1,4 @@
 <div class="uk-card uk-flex-row uk-width-xxlarge@m uk-width-large@s uk-flex-row-centered" id="footer">
+    <div class="row column"><hr class="dotted"></div>
     <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}. </p>
 </div>

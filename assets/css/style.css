@@ -132,15 +132,7 @@ table {
 
 /*** Basics ***/
 body {
-	font-family: "Helvetica Neue",
-	Helvetica,
-	"PingFang SC",
-	"Hiragino Sans GB",
-	"Microsoft YaHei",
-	"微软雅黑",
-	Arial,
-	sans-serif;
-
+	font-family: "Menlo";
 	font-size: 13px;
 	line-height: 1.7;
 }
@@ -289,9 +281,8 @@ h3 {
 }
 
 #header {
-	margin: 40px auto 20px auto;
+	margin: 40px auto 0px auto;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid #eee8d5;
 }
 
 #header h1 {
@@ -304,11 +295,10 @@ h3 {
 }
 
 #footer {
-
-	margin: 50px auto 20px auto;
+	margin: 30px auto 20px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
-	border-top: 1px solid #073642;
+
 }
 
 #content {
@@ -371,7 +361,7 @@ day h1 a.anchor {
 
 
 article {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 article h1 {
@@ -613,4 +603,18 @@ pre {
 	min-height: auto;
 	padding: 0 10px 0 10px;
 	font-size: 0.8rem;
+}
+
+hr.dotted {
+	border-style: dashed;
+	margin: 1rem 0;
+	max-width: 100%
+}
+
+
+@font-face {
+	font-family: 'Menlo';
+	src: url('../font/Menlo-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
 }

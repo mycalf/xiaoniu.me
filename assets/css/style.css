@@ -222,7 +222,7 @@ h2 {
 }
 
 h3 {
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0 0 10px 0;
 }
 
@@ -376,6 +376,11 @@ article {
 
 article h1 {
 	font-size: 17px;
+	margin: 0 0 10px 0;
+}
+
+article h3 {
+	font-size: 12px;
 	margin: 0 0 10px 0;
 }
 

@@ -1,9 +1,10 @@
+---
 layout: post
 title:  Vue CLI 3 + Electron 脚手架搭建
 date: 2019-04-28 16:37:55
 tags: Vue Electron
+---
 
-# Vue CLI 3 + Electron 脚手架搭建
 
 替换npm源至国内源：
 
